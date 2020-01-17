@@ -266,3 +266,14 @@ button{
     margin-right: 2%;
     margin-bottom: 5%;
 }
+
+/* Products Page */
+.productsIMG{
+    margin-bottom: 2%;
+    /* border: 1px solid black; */
+}
+
+.productsIMG img{
+    width: 800px;
+    height: 400px;
+}

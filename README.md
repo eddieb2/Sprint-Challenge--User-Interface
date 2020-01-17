@@ -33,13 +33,13 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
-  Semantic HTML is simply descriptive HTML. Instead of using any random words to describe an element, we use a predefined set of words as the standard. These words give each element a meaning. 
+  -Semantic HTML is simply descriptive HTML. Instead of using any random words to describe an element, we use a predefined set of words as the standard. These words give each element a meaning. 
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
-  Display: inline doesn't allow for line-breaks after the element and top/bottom padding/margin isn't respected.
+  -Display: inline doesn't allow for line-breaks after the element and top/bottom padding/margin isn't respected.
 
 3. What are the 4 areas of the box model?
-  Margin, border, padding, and content.
+  -Margin, border, padding, and content.
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
   The cross-axis.
