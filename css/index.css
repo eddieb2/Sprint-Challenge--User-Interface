@@ -211,8 +211,7 @@ footer nav a {
     background-color: dodgerblue;
 }
 
-
-/* about page CSS */
+/* About page CSS */
 
 .aboutContainer{
     display: flex;
@@ -220,8 +219,9 @@ footer nav a {
     /* margin-bottom: 5%; */
     border-bottom: 2px dotted black;
     padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
-
 
 .boxSection{
     display: flex;
@@ -249,4 +249,12 @@ button{
     background-color: white;
     width: 125px;
     height: 35px;
+}
+
+.bottomContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 5%;
 }
