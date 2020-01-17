@@ -210,3 +210,43 @@ footer nav a {
 #color10{
     background-color: dodgerblue;
 }
+
+
+/* about page CSS */
+
+.aboutContainer{
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 5%; */
+    border-bottom: 2px dotted black;
+    padding-bottom: 3%;
+}
+
+
+.boxSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 4%;
+    /* margin-top: 4%; */
+    /* margin-left: 2%; */
+}
+    
+.subBoxSection{
+    flex-basis: 45%;
+    padding-bottom: 2%;
+    border-bottom: 2px dotted black;
+    padding-top: 5%;
+}
+
+.subBoxSection img{
+    padding-bottom: 2%;
+}
+
+button{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    width: 125px;
+    height: 35px;
+}
