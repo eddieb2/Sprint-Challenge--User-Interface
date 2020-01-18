@@ -249,6 +249,10 @@ footer nav a {
 
 .subBoxSection img{
     padding-bottom: 2%;
+    max-width: 350px;
+    max-height: 250px;
+    width: 350px;
+    height: 250px;
 }
 
 button{
@@ -278,6 +282,6 @@ button{
     height: 400px;
 }
 
-.android{
+/* .android{
     width:350px;
-}
+} */
