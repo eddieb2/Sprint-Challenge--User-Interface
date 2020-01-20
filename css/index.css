@@ -66,6 +66,32 @@ p {
     line-height: 1.4;
 }
 
+/* Navigation Bar */
+.navContainer{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+.navLinks{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+/* .navLinks a:visited{
+    text-decoration: none;
+} */
+
+.navLinks{
+    width: 100%;
+}
+/* Big image near header */
+.jumboIMG{
+    margin-bottom: 3%;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -143,4 +169,123 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+#color1{
+    background-color: teal;
+}
+
+#color2{
+    background-color: gold;
+}
+
+#color3{
+    background-color: cadetblue;
+}
+
+#color4{
+    background-color: coral;
+}
+
+#color5{
+    background-color: crimson;
+}
+
+#color6{
+    background-color: forestgreen;
+}
+
+#color7{
+    background-color: darkorchid;
+}
+
+#color8{
+    background-color: hotpink;
+}
+
+#color9{
+    background-color: indigo;
+}
+
+#color10{
+    background-color: dodgerblue;
+}
+
+/* About page CSS */
+
+.aboutContainer{
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 5%; */
+    border-bottom: 2px dotted black;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.boxSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 4%;
+    /* margin-top: 4%; */
+    /* margin-left: 2%; */
+}
+    
+.subBoxSection{
+    flex-basis: 45%;
+    padding-bottom: 2%;
+    border-bottom: 2px dotted black;
+    padding-top: 5%;
+}
+
+#subBoxSection1{
+    padding-top: 4%;
+}
+
+#subBoxSection2{
+    padding-top: 4%;
+}
+
+.subBoxSection img{
+    padding-bottom: 2%;
+    max-width: 350px;
+    max-height: 250px;
+    width: 350px;
+    height: 250px;
+}
+
+button{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    width: 125px;
+    height: 35px;
+}
+
+.bottomContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+}
+
+/* Products Page */
+.productsIMG{
+    margin-bottom: 2%;
+    /* border: 1px solid black; */
+}
+
+.productsIMG img{
+    width: 800px;
+    height: 400px;
+}
+
+/* .android{
+    width:350px;
+} */
+
+.buttonSpace{
+padding-top: 6%;
 }
